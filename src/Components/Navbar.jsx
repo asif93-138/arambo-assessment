@@ -5,8 +5,8 @@ import flag_icon from "../assets/Auto Layout Vertical.png"
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div>
-                  <div className="navbar bg-base-100 shadow-sm md:px-20">
+        <div className="relative">
+        <div className="navbar shadow-sm md:px-20">
         <div className="navbar-start">
           <a className="btn btn-ghost normal-case text-xl">
             <img src={logo} />
@@ -32,7 +32,7 @@ const Navbar = () => {
             </button>
         </div>
       </div>
-          <ul className={isOpen ? "md:hidden ms-6" : "md:hidden ms-6 hidden"}>
+          <ul className={isOpen ? "md:hidden ps-6 absolute w-full bg-white z-1" : "md:hidden ms-6 hidden"}>
             <li className="my-3"><a>Home</a></li>
             <li className="my-3"><a>Buy/Sell <i className="fa-solid fa-angle-down"></i></a></li>
             <li className="my-3"><a>Rent <i className="fa-solid fa-angle-down"></i></a></li>
@@ -44,3 +44,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+//  left-[100%]

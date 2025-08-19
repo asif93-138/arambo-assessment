@@ -2,69 +2,26 @@
 import './App.css'
 import { useState } from "react";
 import Navbar from './Components/Navbar';
+import Banner from './Components/Banner';
+import SponsorLogos from './Components/SponsorLogos';
+import About from './Components/About';
 
 function App() {
   
 
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-[#F6F7F9]">
       {/* ===== Navbar ===== */}
       <Navbar />
 
       {/* ===== Hero Section ===== */}
-      {/* <div className="hero min-h-[80vh] bg-gradient-to-r from-blue-900 to-blue-600 text-white">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="/hero-img.png"
-            className="max-w-sm rounded-lg shadow-2xl"
-            alt="Hero"
-          />
-          <div>
-            <h1 className="text-5xl font-bold leading-tight">
-              Find Your Next Space — <br />
-              Modern, Elegant, Effortless.
-            </h1>
-            <p className="py-6">
-              Search properties, explore listings, and find your dream space with confidence.
-            </p>
-            <div className="flex gap-2">
-              <button className="btn btn-primary">Search Now</button>
-              <button className="btn btn-outline btn-secondary">Learn More</button>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      <Banner />
 
-      {/* ===== Features Section ===== */}
-      {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-10 text-center">
-        <div className="p-4 bg-base-200 rounded-lg">🏠 Buy Property</div>
-        <div className="p-4 bg-base-200 rounded-lg">🏢 Rent Property</div>
-        <div className="p-4 bg-base-200 rounded-lg">💼 Commercial</div>
-        <div className="p-4 bg-base-200 rounded-lg">🌍 International</div>
-      </div> */}
+      {/* ===== Hero Section ===== */}
+      <SponsorLogos />
 
       {/* ===== About Section ===== */}
-      {/* <div className="p-10 grid lg:grid-cols-2 gap-10 items-center">
-        <img src="/about-img.png" className="rounded-lg shadow-lg" alt="About" />
-        <div>
-          <h2 className="text-3xl font-bold mb-4">About Arambo</h2>
-          <p className="text-lg leading-relaxed">
-            At Arambo, we believe that your spaces should reflect your lifestyle. 
-            From curated residential properties to commercial solutions, we help 
-            you find a place you can truly call home or grow your business.
-          </p>
-          <div className="mt-6 flex gap-6">
-            <div>
-              <h3 className="text-2xl font-bold">500+</h3>
-              <p>Properties Listed</p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-bold">200+</h3>
-              <p>Satisfied Clients</p>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      <About />
 
       {/* ===== Latest Properties ===== */}
       {/* <div className="p-10">

@@ -5,3 +5,11 @@
 .transparent-button:hover {
     background-color: blue;
 }
+
+.btn-arrow-size {
+    font-size: 8px;
+}
+
+.bg-img-about {
+    background-image: url(./assets/50-bg.png);
+}

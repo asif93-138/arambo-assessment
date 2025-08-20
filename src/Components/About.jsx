@@ -4,7 +4,14 @@ import building from "../assets/building.png"
 const About = () => {
     return (
               <div className="grid lg:grid-cols-2 items-center my-20">
-        <img src={building} className="w-8/10" alt="About" />
+                <article className="relative">
+                  <img src={building} className="w-8/10" alt="About" />
+                  <button type="button" className="btn absolute bottom-[5%] left-[25%] px-16 rounded-3xl">
+                    Learn more
+                    <i className="fa-solid fa-arrow-right mt-1 btn-arrow-size text-white bg-[#1946BB] p-1 rounded-full">
+                    </i>
+                  </button>
+                </article>
         <div className="pe-20">
           <button className="btn btn-outline rounded-xl px-2 h-[25px]">About Arambo</button>
           <p className="text-2xl leading-relaxed mt-3">
@@ -13,7 +20,7 @@ const About = () => {
             you find a place you can truly call home or grow your business.
           </p>
           <div className="mt-6 flex gap-6">
-            <div className='w-[180px] h-[170px] text-white p-6 text-right' style={{backgroundImage: `url(${bg_50})`}}>
+            <div className='w-[180px] h-[170px] text-white p-6 text-right bg-img-about' > {/* style={{backgroundImage: `url(${bg_50})`}} */}
               <h3 className="text-4xl mb-12 text-left font-medium">50+</h3>
               <small className="">Elegant properties</small>
             </div>

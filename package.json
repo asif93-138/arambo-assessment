@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/asif93-138/arambo-assessment.git"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

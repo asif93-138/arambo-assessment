@@ -5,6 +5,8 @@ import SponsorLogos from './Components/SponsorLogos';
 import About from './Components/About';
 import SimpleSteps from './Components/SimpleSteps';
 import PropertyListing from './Components/PropertyListing';
+import TenantScreening from './Components/TenantScreening';
+import LegalSupport from './Components/LegalSupport';
 
 function App() {
   return (
@@ -28,23 +30,10 @@ function App() {
       <PropertyListing />
 
       {/* ===== Tenants Section ===== */}
-      {/* <div className="p-10 grid lg:grid-cols-2 gap-10 items-center">
-        <img src="/tenants.jpg" className="rounded-lg shadow-lg" alt="Tenants" />
-        <div>
-          <h2 className="text-3xl font-bold mb-4">Screen Tenants with Confidence</h2>
-          <p className="text-lg leading-relaxed">
-            Our advanced tenant screening helps landlords find trustworthy tenants.
-          </p>
-          <button className="btn btn-primary mt-4">Get Started</button>
-        </div>
-      </div> */}
+      <TenantScreening />
 
       {/* ===== Legal Support ===== */}
-      {/* <div className="p-10 text-center">
-        <h2 className="text-3xl font-bold">Expert Legal Support When You Need It</h2>
-        <p className="mt-2">Our experts provide legal advice for property transactions.</p>
-        <button className="btn btn-primary mt-4">Learn More</button>
-      </div> */}
+      <LegalSupport />
 
       {/* ===== Moving Services ===== */}
       {/* <div className="p-10 text-center bg-base-200">

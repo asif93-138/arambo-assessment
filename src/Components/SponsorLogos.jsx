@@ -9,7 +9,7 @@ import sponsor_7 from "../assets/sponsor-7.png"
 
 const SponsorLogos = () => {
     return (
-        <div className='mt-30 flex items-center justify-evenly'>
+        <div className='pt-30 flex items-center justify-evenly bg-[#F6F7F9]'>
             <img src={sponsor_1} />
             <img src={sponsor_2} />
             <img src={sponsor_3} />

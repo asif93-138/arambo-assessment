@@ -13,3 +13,7 @@
 .bg-img-about {
     background-image: url(./assets/50-bg.png);
 }
+
+.bg-img-banner {
+    background-image: url(./assets/banner.png);
+}

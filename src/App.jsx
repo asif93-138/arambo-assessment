@@ -1,16 +1,14 @@
-
 import './App.css'
-import { useState } from "react";
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
 import SponsorLogos from './Components/SponsorLogos';
 import About from './Components/About';
+import SimpleSteps from './Components/SimpleSteps';
+import PropertyListing from './Components/PropertyListing';
 
 function App() {
-  
-
   return (
-    <div className="font-sans bg-[#F6F7F9]">
+    <div className="font-sans">
       {/* ===== Navbar ===== */}
       <Navbar />
 
@@ -23,26 +21,11 @@ function App() {
       {/* ===== About Section ===== */}
       <About />
 
+      {/* ===== Simple Steps Section ===== */}
+      <SimpleSteps />
+
       {/* ===== Latest Properties ===== */}
-      {/* <div className="p-10">
-        <h2 className="text-3xl font-bold mb-6">Explore Latest Properties to Buy</h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          {Array(6).fill(0).map((_, i) => (
-            <div key={i} className="card bg-base-100 shadow-xl">
-              <figure>
-                <img src="/property.jpg" alt="Property" />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Property {i+1}</h2>
-                <p>$140,000</p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">View Details</button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div> */}
+      <PropertyListing />
 
       {/* ===== Tenants Section ===== */}
       {/* <div className="p-10 grid lg:grid-cols-2 gap-10 items-center">

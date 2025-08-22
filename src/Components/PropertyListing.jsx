@@ -79,7 +79,7 @@ const PropertyListing = () => {
                 <h1 className="text-3xl md:text-4xl font-semibold text-gray-900">Explore Latest Properties to Buy</h1>
 
                 {/* Filter Buttons */}
-                <div className="flex bg-gray-100 rounded-full">
+                <div className="flex bg-gray-100 rounded-full w-50 md:w-auto">
                     <button
                         onClick={() => setActiveFilter("residential")}
                         className={`px-6 py-2 rounded-full text-sm cursor-pointer font-medium transition-colors ${activeFilter === "residential" ? "bg-blue-600 text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"

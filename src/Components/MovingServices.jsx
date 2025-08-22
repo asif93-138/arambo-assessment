@@ -25,7 +25,7 @@ const MovingServices = () => {
         </div>
 
         {/* Services Section */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 md:gap-8 gap-4 max-w-6xl mx-auto">
           {/* Truck Moving */}
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <div className="border-b-2 border-blue-600 w-16 mb-4"></div>

@@ -118,7 +118,7 @@ const TestimonialsSection = () => {
                 </div>
 
                 {/* Second Testimonial Card (duplicate for demo) */}
-                <div className="card bg-white shadow-lg flex-row items-center">
+                <div className="card bg-white shadow-lg flex-row items-center hidden md:flex">
                   <div className="relative w-300">
                     <img
                       src={testimonial.image || "/placeholder.svg"}
@@ -157,9 +157,8 @@ const TestimonialsSection = () => {
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-3 h-3 rounded-full transition-colors ${
-                index === currentSlide ? "bg-primary" : "bg-gray-300"
-              }`}
+              className={`w-3 h-3 rounded-full transition-colors ${index === currentSlide ? "bg-primary" : "bg-gray-300"
+                }`}
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}

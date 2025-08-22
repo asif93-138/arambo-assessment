@@ -22,140 +22,140 @@ const Footer = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="btn btn-lg bg-white text-gray-800 hover:bg-gray-100 border-none px-8">
+            <button className="btn btn-lg bg-white text-gray-800 hover:bg-gray-100 border-none px-8 w-80 md:w-auto">
               <EnvelopeIcon className="w-5 h-5 mr-2" />
               Send Email
             </button>
-            <button className="btn btn-lg bg-gray-600 bg-opacity-80 text-white hover:bg-gray-700 border-none px-8">
+            <button className="btn btn-lg bg-gray-600 bg-opacity-80 text-white hover:bg-gray-700 border-none px-8 w-80 md:w-auto">
               <PhoneIcon className="w-5 h-5 mr-2" />
               Call us
             </button>
           </div>
         </div>
-              {/* Footer Links Section */}
-      <div className="bg-white p-12 max-w-6xl mx-auto mt-15 rounded-xl">
-        <div className="">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            {/* Brand Section */}
-            <div className="md:col-span-1">
-              <img src={logo} />
-              <p className="text-gray-600 text-sm leading-relaxed mt-5">
-                From Listing to Living—
-                <br />
-                Smarter with Arambo.
-              </p>
-            </div>
 
-            {/* For Rent */}
-            <div>
-              <h3 className="font-semibold text-gray-800 mb-4">For Rent</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Commercial
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Residential
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Land Properties
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Long Term
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Short Term
-                  </a>
-                </li>
-              </ul>
-            </div>
+        <div className="bg-white p-12 md:max-w-6xl w-9/10 mx-auto mt-15 rounded-xl">
+          <div className="">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
 
-            {/* Property */}
-            <div>
-              <h3 className="font-semibold text-gray-800 mb-4">Property</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    For sale
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    List a property
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Long-term
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Short-term
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <div className="md:col-span-1">
+                <img src={logo} />
+                <p className="text-gray-600 text-sm leading-relaxed mt-5">
+                  From Listing to Living—
+                  <br />
+                  Smarter with Arambo.
+                </p>
+              </div>
 
-            {/* Company */}
-            <div>
-              <h3 className="font-semibold text-gray-800 mb-4">Company</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Contact
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Privacy policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Term of service
-                  </a>
-                </li>
-              </ul>
-            </div>
 
-            {/* Find us at */}
-            <div>
-              <h3 className="font-semibold text-gray-800 mb-4">Find us at</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
-                    Youtube
-                  </a>
-                </li>
-              </ul>
+              <div>
+                <h3 className="font-semibold text-gray-800 mb-4">For Rent</h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Commercial
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Residential
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Land Properties
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Long Term
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Short Term
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div>
+                <h3 className="font-semibold text-gray-800 mb-4">Property</h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      For sale
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      List a property
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Long-term
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Short-term
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div>
+                <h3 className="font-semibold text-gray-800 mb-4">Company</h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      About
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Privacy policy
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Term of service
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div>
+                <h3 className="font-semibold text-gray-800 mb-4">Find us at</h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Instagram
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">
+                      Youtube
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
 
 

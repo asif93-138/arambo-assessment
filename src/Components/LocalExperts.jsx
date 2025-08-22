@@ -37,22 +37,22 @@ export default function LocalExperts() {
     <section className="py-16 px-4  mb-10 bg-[#F6F7F9]">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
-        <div className="flex justify-between items-start mb-12">
+        <div className="md:flex justify-between items-start mb-12">
           <div className="flex-1">
-            <h2 className="text-4xl font-semibold text-black leading-tight">
+            <h2 className="text-4xl font-semibold text-black md:leading-tight">
               Local Experts. Real
-              <br />
+              <br className="hidden md:block" />
               Guidance.
             </h2>
           </div>
 
           <div className="">
-            <p className="text-gray-600 text-lg max-w-md ml-8">
+            <p className="text-gray-600 text-lg max-w-md md:ml-8 my-4 md:my-0">
               Our team of experienced real estate professionals is here to guide you
             </p>
 
             {/* Navigation Arrows */}
-            <div className="text-right me-8">
+            <div className="text-right md:me-8">
               <button className="p-2 mx-1 rounded-full border border-gray-300 hover:bg-gray-100 transition-colors">
                 <ChevronLeftIcon className="w-5 h-5 text-gray-600" />
               </button>
@@ -66,7 +66,7 @@ export default function LocalExperts() {
         {/* Agents Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {agents.map((agent) => (
-            <div key={agent.id} className="relative group cursor-pointer">
+            <div key={agent.id} className={`relative group cursor-pointer ${agent.id != 1 ? "hidden md:block" : ""}`}>
               {/* Agent Card */}
               <div className="relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
                 {/* Rating Badge */}

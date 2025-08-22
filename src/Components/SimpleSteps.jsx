@@ -57,14 +57,14 @@ const SimpleSteps = () => {
         },
     ]
     return (
-        <section className="py-16 px-4 max-w-7xl w-9/10 mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <section className="py-16 px-4 max-w-7xl md:w-9/10 mx-auto">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-12 items-start">
                 {/* Left Column */}
                 <div className="space-y-8">
                     <div className="space-y-4">
-                        <h2 className="text-4xl font-bold text-gray-900 leading-tight">
+                        <h2 className="text-4xl font-bold text-gray-900 md:leading-tight">
                             Simple steps. Real results.
-                            <br />
+                            <br className="hidden md:block" />
                             Tailored for everyone.
                         </h2>
                         <p className="text-gray-600 text-lg">
@@ -76,8 +76,8 @@ const SimpleSteps = () => {
                         <button
                             onClick={() => setActiveTab("buyers")}
                             className={`w-full text-left px-6 py-4 rounded-full text-lg font-medium transition-all duration-200 ${activeTab === "buyers"
-                                    ? "bg-[#1946BB] text-white shadow-lg"
-                                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                                ? "bg-[#1946BB] text-white shadow-lg"
+                                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                                 }`}
                         >
                             <div className="flex items-center justify-between">
@@ -93,8 +93,8 @@ const SimpleSteps = () => {
                         <button
                             onClick={() => setActiveTab("sellers")}
                             className={`w-full text-left px-6 py-4 rounded-full text-lg font-medium transition-all duration-200 ${activeTab === "sellers"
-                                    ? "bg-[#1946BB] text-white shadow-lg"
-                                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                                ? "bg-[#1946BB] text-white shadow-lg"
+                                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                                 }`}
                         >
                             <div className="flex items-center justify-between">
@@ -110,8 +110,8 @@ const SimpleSteps = () => {
                         <button
                             onClick={() => setActiveTab("renters")}
                             className={`w-full text-left px-6 py-4 rounded-full text-lg font-medium transition-all duration-200 ${activeTab === "renters"
-                                    ? "bg-[#1946BB] text-white shadow-lg"
-                                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                                ? "bg-[#1946BB] text-white shadow-lg"
+                                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                                 }`}
                         >
                             <div className="flex items-center justify-between">

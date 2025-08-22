@@ -44,7 +44,7 @@ const ListFiltering = () => {
   const furnishingOptions = ["Furnished", "Non-furnished"]
 
   return (
-    <div className="max-w-7xl mx-auto w-4/5">
+    <div className="max-w-7xl mx-auto md:w-4/5 w-9/10 my-30">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* Left Section */}
         <div className="space-y-8">
@@ -65,11 +65,10 @@ const ListFiltering = () => {
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${
-                    selectedCategory === category
+                  className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${selectedCategory === category
                       ? "bg-blue-600 text-white shadow-lg"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                  }`}
+                    }`}
                 >
                   {category}
                 </button>
@@ -82,11 +81,10 @@ const ListFiltering = () => {
                 <button
                   key={option}
                   onClick={() => setSelectedFurnishing(option)}
-                  className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${
-                    selectedFurnishing === option
+                  className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${selectedFurnishing === option
                       ? "bg-blue-600 text-white shadow-lg"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                  }`}
+                    }`}
                 >
                   {option}
                 </button>

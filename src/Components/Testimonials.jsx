@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
   return (
     <div className="bg-[#F6F7F9] py-16">
       {/* Header Section */}
-      <div className="flex flex-col lg:flex-row justify-between items-start mb-12 max-w-5xl mx-auto">
+      <div className="flex flex-col lg:flex-row justify-between items-start mb-12 max-w-5xl w-9/10 mx-auto">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <h2 className="text-4xl font-semibold text-gray-900 leading-tight">
             Trusted by Satisfied

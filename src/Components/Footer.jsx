@@ -22,11 +22,11 @@ const Footer = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="btn btn-lg bg-white text-gray-800 hover:bg-gray-100 border-none px-8 w-80 md:w-auto">
+            <button className="btn btn-lg bg-white text-gray-800 hover:bg-gray-100 border-none w-80 md:w-auto rounded-lg">
               <EnvelopeIcon className="w-5 h-5 mr-2" />
               Send Email
             </button>
-            <button className="btn btn-lg bg-gray-600 bg-opacity-80 text-white hover:bg-gray-700 border-none px-8 w-80 md:w-auto">
+            <button className="btn btn-lg bg-gray-600/60 text-white hover:bg-gray-700 border-none w-80 md:w-auto px-8 rounded-lg">
               <PhoneIcon className="w-5 h-5 mr-2" />
               Call us
             </button>

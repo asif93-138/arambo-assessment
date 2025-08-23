@@ -6,7 +6,7 @@ import icon_4 from "../assets/mini-icon-3.png"
 const Banner = () => {
   return (
     <div className="md:relative bg-[#F6F7F9]">
-      <div className="md:min-h-[85vh] text-white rounded-2xl bg-img-banner">
+      <div className="md:min-h-[85vh] text-white rounded-2xl bg-img-banner bg-cover">
         <div className="md:p-30 px-5 py-20">
           <div>
             <h1 className="md:text-5xl text-4xl md:leading-tight">
@@ -27,7 +27,7 @@ const Banner = () => {
         </div>
       </div>
       <div
-        className="grid grid-cols-2 md:grid-cols-4 md:gap-8 gap-4 md:absolute w-full px-4 md:px-10 bottom-[-70px] mt-4 md:mt-0"
+        className="grid grid-cols-2 md:grid-cols-4 md:gap-8 gap-4 md:absolute w-full px-4 md:px-10 bottom-[-70px] mt-4 md:mt-0 z-1"
       >
         <div className="p-8 bg-white rounded-xl"><img src={icon_1} /> <p>Buy Property</p></div>
         <div className="p-8 bg-white rounded-xl"><img src={icon_3} /> <p>Rent Property</p></div>

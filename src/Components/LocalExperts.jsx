@@ -53,10 +53,14 @@ export default function LocalExperts() {
 
             {/* Navigation Arrows */}
             <div className="text-right md:me-8">
-              <button className="p-2 mx-1 rounded-full border border-gray-300 hover:bg-gray-100 transition-colors">
+              <button
+                className="p-2 mx-1 rounded-full border border-gray-300 hover:bg-gray-100 transition-colors cursor-not-allowed"
+                disabled >
                 <ChevronLeftIcon className="w-5 h-5 text-gray-600" />
               </button>
-              <button className="p-2 mx-1 rounded-full border border-gray-300 hover:bg-gray-100 transition-colors">
+              <button
+                className="p-2 mx-1 rounded-full border border-gray-300 hover:bg-gray-100 transition-colors cursor-not-allowed"
+                disabled >
                 <ChevronRightIcon className="w-5 h-5 text-gray-600" />
               </button>
             </div>

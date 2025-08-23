@@ -1,4 +1,4 @@
-import React from 'react';
+import Marquee from "react-fast-marquee";
 import sponsor_1 from "../assets/sponsor-1.png"
 import sponsor_2 from "../assets/sponsor-2.png"
 import sponsor_3 from "../assets/sponsor-3.png"
@@ -9,33 +9,15 @@ import sponsor_7 from "../assets/sponsor-7.png"
 
 const SponsorLogos = () => {
     return (
-        <section className='bg-[#F6F7F9]'>
-            <div className='pt-40 md:flex items-center justify-evenly hidden'>
-                <img src={sponsor_1} />
-                <img src={sponsor_2} />
-                <img src={sponsor_3} />
-                <img src={sponsor_4} />
-                <img src={sponsor_5} />
-                <img src={sponsor_6} />
-                <img src={sponsor_7} />
-            </div>
-            <div className='md:hidden pt-7 px-5 text-center'>
-                <article className='flex items-center justify-evenly mb-4'>
-                    <img src={sponsor_1} />
-                    <img src={sponsor_2} />
-                    <img src={sponsor_3} />
-                </article>
-                <article className='flex items-center justify-evenly mb-4'>
-                    <img src={sponsor_4} />
-                    <img src={sponsor_5} />
-                    <img src={sponsor_6} />
-                </article>
-                <article className='flex justify-center'>
-                    <img src={sponsor_7} />
-                </article>
-            </div>
-        </section>
-
+        <Marquee className="md:pt-35 pt-7 bg-[#F6F7F9]" speed="100">
+            <img src={sponsor_1} className="md:mx-20 mx-8" />
+            <img src={sponsor_2} className="md:mx-20 mx-8" />
+            <img src={sponsor_3} className="md:mx-20 mx-8" />
+            <img src={sponsor_4} className="md:mx-20 mx-8" />
+            <img src={sponsor_5} className="md:mx-20 mx-8" />
+            <img src={sponsor_6} className="md:mx-20 mx-8" />
+            <img src={sponsor_7} className="md:mx-20 mx-8" />
+        </Marquee>
     );
 };
 

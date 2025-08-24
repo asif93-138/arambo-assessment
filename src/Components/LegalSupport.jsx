@@ -63,7 +63,7 @@ const LegalSupport = () => {
 
             {/* Statistics */}
             <div className="">
-              <div className="text-5xl font-bold text-blue-400 mb-2">85%</div>
+              <div className="text-5xl font-bold text-blue-400 mb-2 number-gradient">85%</div>
               <div className="text-gray-400 font-medium">Fewer Legal Delays</div>
             </div>
           </article>

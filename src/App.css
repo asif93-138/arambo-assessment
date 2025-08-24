@@ -17,3 +17,15 @@
 .bg-img-banner {
     background-image: url(./assets/banner.png);
 }
+
+.heading-gradient {
+  background: linear-gradient(to right, white, #AFE4FF 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.number-gradient {
+  background: radial-gradient(#F6F8FD, #1946BB);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

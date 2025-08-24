@@ -9,7 +9,7 @@ const Banner = () => {
       <div className="md:min-h-[85vh] text-white rounded-2xl bg-img-banner bg-cover">
         <div className="md:p-30 px-5 py-20">
           <div>
-            <h1 className="md:text-5xl text-4xl md:leading-tight">
+            <h1 className="md:text-5xl text-4xl md:leading-tight heading-gradient font-semibold">
               Find Your Next Space — <br />
               Modern, Elegant, Effortless.
             </h1>
